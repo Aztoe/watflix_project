@@ -35,7 +35,13 @@ section {
     vertical-align: middle;
     padding: 0px 14px;
 }
-
+#login {
+	position:relative;
+	width:40%;
+	margin: auto;
+	max-width:1200px;
+	
+}
 .or::before{
 	 content: "";
     position: absolute;
@@ -104,7 +110,7 @@ hr {
     border: 0px;
     overflow: hidden;
     text-overflow: ellipsis;
-    caret-color: rgb(255, 47, 110);
+    caret-color:orange;
     margin: 4px;
 	
 }
@@ -113,7 +119,7 @@ hr {
     padding: 0px;
     border: none;
     cursor: pointer;
-    background: rgb(255, 47, 110);
+    background:	orange;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 17px;
@@ -131,7 +137,7 @@ hr {
     border: none;
     margin: 0px;
     cursor: pointer;
-    color: rgb(255, 47, 110);
+    color:orange;
 }
 .css_button {
 	font-size: 15px;
@@ -157,7 +163,7 @@ hr {
     border: none;
     margin: 0px;
     cursor: pointer;
-    color: rgb(255, 47, 110);
+    color:orange;
 	
 }
 button, input, optgroup, select, textarea {
